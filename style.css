@@ -6,8 +6,8 @@ body{
   text-align: center;
   background: #1e1f26;
     background-image: initial;
-    background-position-x: 50px;
-    background-position-y: 0px;
+    background-position-x: initial;
+    background-position-y: initial;
     background-size: initial;
     background-repeat-x: initial;
     background-repeat-y: initial;
@@ -15,7 +15,7 @@ body{
     background-origin: initial;
     background-clip: initial;
     background-color: rgb(30, 31, 38);
-  margin: 0;
+  margin: -1;
 }
 .text{
   color: lavender;
