@@ -7,7 +7,7 @@ body{
   background: #1e1f26;
     background-image: initial;
     background-position-x: initial;
-    background-position-y: initial;
+    background-position-y: 40px;
     background-size: initial;
     background-repeat-x: initial;
     background-repeat-y: initial;
@@ -15,8 +15,19 @@ body{
     background-origin: initial;
     background-clip: initial;
     background-color: rgb(30, 31, 38);
-  margin: -1%;
+  margin: -0.40%;
+  font-family: Abel;
+  border-width: 1px;
+  font-size: 50px;
+  font-style: italic;
 }
 .text{
   color: lavender;
+  border-style: dotted;
+  border-width: 1px;
+  padding: 15px;
+  background-color: orange;
+}
+.second{
+  color: blue;
 }
