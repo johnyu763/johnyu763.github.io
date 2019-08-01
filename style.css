@@ -4,6 +4,7 @@ body{
 .title{
   color: lightgrey;
   text-align: center;
+  border:solid;
   background-image: url("img/bokeh.jpg");
   margin: -8px 100px -14px 100px;
   font-family: Abel;
@@ -18,6 +19,7 @@ body{
 .buttonbar{
   color: lavender;
   height: 40px;
+  margin: 14px 0px 0px 0px;
   background-color: slategrey;
   text-align:center;
 }
