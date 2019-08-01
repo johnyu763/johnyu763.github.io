@@ -4,7 +4,7 @@ body{
 .title{
   color: lightgrey;
   text-align: center;
-  border:solid;
+
   background-image: url("img/bokeh.jpg");
   margin: -8px 100px 0px 100px;
   font-family: Abel;
