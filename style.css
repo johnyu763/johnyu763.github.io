@@ -15,13 +15,21 @@ body{
   background-size: cover;
   #background-color: blue;
 }
-.text{
+.buttonbar{
   color: lavender;
-  border-style: dotted;
-  border-width: 1px;
-  padding: 15px;
-  background-color: orange;
+  height: 40px;
+  background-color: slategrey;
+  text-align:center;
 }
-.second{
-  color: blue;
+.button{
+  color:lavender;
+  background-color: transparent;
+  border:none;
+  padding: 9px;
+  font-family: "Alike Angular";
+  font-size: 20px;
+}
+.text{
+  color: white;
+  font-size: 30px;
 }
