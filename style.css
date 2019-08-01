@@ -18,7 +18,7 @@ body{
 .buttonbar{
   color: lavender;
   height: 40px;
-  background-color: slategrey;
+  background-color: midnightblue;
   text-align:center;
 }
 .button{
@@ -29,8 +29,21 @@ body{
   font-family: "Alike Angular";
   font-size: 20px;
   outline: none;
+  cursor:pointer;
 }
 .text{
   color: white;
-  font-size: 30px;
+  font-size: 20px;
+}
+.line{
+  color: white;
+  border: solid;
+  border-width: 0.5px;
+  width: 550px;
+  margin: auto;
+  float:none;
+  text-align: center;
+}
+.normal{
+  color:white;
 }
