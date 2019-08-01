@@ -4,17 +4,7 @@ body{
 .title{
   color: lightgrey;
   text-align: center;
-  background: #1e1f26;
-    background-image: initial;
-    background-position-x: initial;
-    background-position-y: 40px;
-    background-size: initial;
-    background-repeat-x: initial;
-    background-repeat-y: initial;
-    background-attachment: initial;
-    background-origin: initial;
-    background-clip: initial;
-    background-color: rgb(30, 31, 38);
+  background-image: url(images/bgsun.heic);
   margin: -0.05%;
   font-family: Abel;
   border-width: 1px;
