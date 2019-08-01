@@ -4,7 +4,7 @@ body{
 .title{
   color: lightgrey;
   text-align: center;
-  background-image: url(/img/bgsun.gif);
+  background-image: url("img/bgsun.gif");
   margin: -0.05%;
   font-family: Abel;
   border-width: 1px;
