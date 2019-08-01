@@ -10,6 +10,7 @@ body{
   border-width: 1px;
   font-size: 50px;
   font-style: italic;
+  padding: 100px;
 }
 .text{
   color: lavender;
