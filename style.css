@@ -35,13 +35,18 @@ body{
   font-size: 20px;
   text-indent :4em;
 }
+.caption{
+  color: grey;
+  text-align: center;
+  font-size: 50px;
+  margin: 20px 0px 15px 0px;
+}
 .line{
   color: white;
   border: solid;
   border-width: 0.5px;
-  width: 550px;
+  width: 800px;
   margin: auto;
-  float:none;
   text-align: center;
 }
 .normal{
