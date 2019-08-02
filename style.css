@@ -19,46 +19,31 @@ body{
   height: 40px;
   background-color: teal;
   text-align:center;
-  position: static;
 }
 .button{
   color:lavender;
   background-color: transparent;
   border:none;
-  padding: 8px;
+  padding: 9px;
   font-family: "Alike Angular";
   font-size: 20px;
   outline: none;
-}
-.label{
-  color:white;
-  text-indent :4em;
-  font-size: 40px;
-}
-.media{
   cursor:pointer;
-  border:none;
+}
+.text{
   color: white;
-  text-indent :10em;
+  font-size: 20px;
+  text-indent :4em;
 }
-.social{
-  margin: 0px 0px 0px 30px;
-  float:center;
-  height:50px;
-  width:50px; 
-  color: black;
-  background-size: 100%;
-  border-radius:100%;
-  background-repeat: no-repeat;
+.line{
+  color: white;
+  border: solid;
+  border-width: 0.5px;
+  width: 550px;
+  margin: auto;
+  float:none;
+  text-align: center;
 }
-.facebook{
-  margin: 0px 0px 0px 30px;
-  float:center;
-  height:50px;
-  width:50px; 
-  color: black;
-  background-size: 100%;
-  border-radius:100%;
-  background-repeat: no-repeat;
-  background-image:url("img/fbicon.png"); 
+.normal{
+  color:white;
 }
