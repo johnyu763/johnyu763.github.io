@@ -17,32 +17,27 @@ body{
 .buttonbar{
   color: lavender;
   height: 40px;
-  background-color: teal;
+  background-color: midnightblue;
   text-align:center;
 }
 .button{
   color:lavender;
   background-color: transparent;
   border:none;
-  padding: 9px;
+  padding: 8px;
   font-family: "Alike Angular";
   font-size: 20px;
   outline: none;
-  cursor:pointer;
 }
 .text{
   color: white;
   font-size: 20px;
 }
+
 .line{
   color: white;
   border: solid;
   border-width: 0.5px;
   width: 550px;
-  margin: auto;
-  float:none;
-  text-align: center;
-}
-.normal{
-  color:white;
+  margin: 10px 10px 10px 400px;
 }
