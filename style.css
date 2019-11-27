@@ -52,7 +52,7 @@ body{
   color: lightgrey;
   border: solid 1px;
   height: auto;
-  max-width: 100%;
+  max-width: 500px;
   margin: -5px 0px 0px 120px;
   display: inline-block;
   cursor:pointer;
