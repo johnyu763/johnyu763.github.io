@@ -62,7 +62,8 @@ p{
   height: 425px;
   margin: -5px 0px 0px 120px;
   text-align: center;
-  display: inline-block
+  display: inline-block;
+  cursor:pointer;
 }
 .snake{
   background-image: url("img/CSnakeScreen.png");
