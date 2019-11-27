@@ -83,6 +83,7 @@ p,h1,h2,.button{
   border: white solid 1px;
   float: left;
   width: 40%;
+  height: auto;
   padding:5px;
   margin: 0px 0px 0px 0px;
 }
