@@ -14,6 +14,9 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
+p{
+  font-family: 'Baskervville', cursive;
+}
 .buttonbar{
   color: lavender;
   height: 40px;
@@ -55,17 +58,21 @@ body{
 .project{
   color: lightgrey;
   border: solid 1px;
-  width: 440px;
-  height: 374px;
+  width: 500px;
+  height: 425px;
   margin: -5px 0px 0px 120px;
   text-align: center;
-  background-image: url("img/CSnakeScreen.png");
   display: inline-block
+}
+.snake{
+  background-image: url("img/CSnakeScreen.png");
+}
+.bnc{
+  background-image: url("img/BNCRPG.png");
 }
 .projname{
   text-indent :6em;
   color:lightgrey;
-  font-family: 'Baskervville', cursive;
   font-size: 20px;
   object-fit: fill;
 }
@@ -73,6 +80,7 @@ body{
   position: absolute;
   color: lightgrey;
   display: inline-block;
-  height: 200px;
+  height: 425px;
   margin: -5px 200px 0px 10px;
+  line-height: 2;
 }
