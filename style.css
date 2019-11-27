@@ -73,19 +73,23 @@ p,h1,h2,.button{
   font-family: 'Baskervville', cursive;
 }
 .projectCol1{
-  border: white solid 1px;
+  border: solid 1px;
   float: left;
   width: 600px;
+  height: 500px;
   padding: 5px;
   margin: 0px 0px 0px 100px;
 }
 .projectCol2{
-  border: white solid 1px;
+  border: solid 1px;
   float: left;
   width: 40%;
   height: auto;
   padding:5px;
   margin: 0px 0px 0px 0px;
+}
+.projectRow{
+  border: solid 0.5px;
 }
 .projectRow:after {
   content: "";
