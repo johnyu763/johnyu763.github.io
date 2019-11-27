@@ -54,31 +54,41 @@ body{
   border: solid 1px;
   height: auto;
   max-width: 500px;
-  margin: -10px 0px 0px 80px;
-  display: inline-block;
+  margin: -10px 0px 0px 0px;
   cursor:pointer;
 }
 .projname{
-  text-indent :4em;
   color:lightgrey;
   font-size: 20px;
 }
 .sum{
-  border: white 1px;
-  position: absolute;
+  #border: solid white 1px;
   color: lightgrey;
-  display: inline-block;
   height: auto;
-  margin: -10px 200px 0px 10px;
+  width: auto;
+  margin: -10px px 0px 10px;
   line-height: 2;
 }
 p,h1,h2,.button{
   font-family: 'Baskervville', cursive;
 }
-.projdiv{
-  color: white;
-  border: solid 1px;
-  width: auto;
-  height: auto;
-  margin: 20px
+.projectCol1{
+  #color: white;
+  #border: solid 1px;
+  float: left;
+  width: 600px;
+  padding: 5px;
+  margin: 0px 0px 0px 100px;
+}
+.projectCol2{
+  #color: white;
+  #border: solid 1px;
+  float: left;
+  width: 47%;
+  padding:5px;
+  margin: 0px 0px 0px 0px;
+}
+.projectRow:after {
+  content: "";
+  clear: both;
 }
