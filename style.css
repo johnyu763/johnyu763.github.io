@@ -6,16 +6,12 @@ body{
   text-align: center;
   background-image: url("img/bokeh.jpg");
   margin: -8px 0px 0px 0px;
-  font-family: 'Baskervville', cursive;
   border-width: 1px;
   font-size: 50px;
   font-style: italic;
   padding: 100px;
   background-repeat: no-repeat;
   background-size: cover;
-}
-p{
-  font-family: 'Baskervville', cursive;
 }
 .buttonbar{
   color: lavender;
@@ -27,8 +23,7 @@ p{
   color:lavender;
   background-color: transparent;
   border:none;
-  padding: 9px;
-  font-family: 'Baskervville', cursive;
+  padding: 6px;
   font-size: 20px;
   outline: none;
   cursor:pointer;
@@ -37,12 +32,10 @@ p{
   color: lightgrey;
   font-size: 20px;
   text-indent :4em;
-  font-family: 'Baskervville', cursive;
 }
 .caption{
   color: lightgrey;
   text-align: center;
-  font-family: 'Baskervville', cursive;
   font-size: 25px;
   font-style: italic;
   margin: 20px 400px 15px 400px;
@@ -85,4 +78,7 @@ p{
   height: 425px;
   margin: -5px 200px 0px 10px;
   line-height: 2;
+}
+p,h1,h2,.button{
+  font-family: 'Baskervville', cursive;
 }
