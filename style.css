@@ -61,10 +61,12 @@ body{
   width: 500px;
   height: 425px;
   margin: -5px 0px 0px 120px;
-  text-align: center;
   display: inline-block;
   cursor:pointer;
   object-fit: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 .projname{
   text-indent :6em;
