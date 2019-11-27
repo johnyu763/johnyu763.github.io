@@ -48,18 +48,11 @@ body{
   margin: auto;
   text-align: center;
 }
-
-.snake{
-  background-image: url("img/CSnakeScreen.png");
-}
-.bnc{
-  background-image: url("img/BNCRPG.png");
-}
 .project{
   color: lightgrey;
   border: solid 1px;
-  max-width: 100%;
   height: auto;
+  max-width: 100%;
   margin: -5px 0px 0px 120px;
   display: inline-block;
   cursor:pointer;
