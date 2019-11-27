@@ -6,7 +6,7 @@ body{
   text-align: center;
   background-image: url("img/bokeh.jpg");
   margin: -8px 0px 0px 0px;
-  font-family: Abel;
+  font-family: 'Baskervville', cursive;
   border-width: 1px;
   font-size: 50px;
   font-style: italic;
@@ -25,7 +25,7 @@ body{
   background-color: transparent;
   border:none;
   padding: 9px;
-  font-family: "Alike Angular";
+  font-family: 'Baskervville', cursive;
   font-size: 20px;
   outline: none;
   cursor:pointer;
@@ -34,12 +34,15 @@ body{
   color: white;
   font-size: 20px;
   text-indent :4em;
+  font-family: 'Baskervville', cursive;
 }
 .caption{
-  color: grey;
+  color: lightgrey;
   text-align: center;
-  font-size: 50px;
-  margin: 20px 0px 15px 0px;
+  font-family: 'Baskervville', cursive;
+  font-size: 25px;
+  font-style: italic;
+  margin: 20px 400px 15px 400px;
 }
 .line{
   color: white;
@@ -51,4 +54,5 @@ body{
 }
 .normal{
   color:white;
+  
 }
