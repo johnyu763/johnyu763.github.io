@@ -54,23 +54,31 @@ body{
   border: solid 1px;
   height: auto;
   max-width: 500px;
-  margin: -10px 0px 0px 120px;
+  margin: -10px 0px 0px 80px;
   display: inline-block;
   cursor:pointer;
 }
 .projname{
-  text-indent :6em;
+  text-indent :4em;
   color:lightgrey;
   font-size: 20px;
 }
 .sum{
+  border: white 1px;
   position: absolute;
   color: lightgrey;
   display: inline-block;
-  height: 425px;
-  margin: -10px 200px 0px 0px;
+  height: auto;
+  margin: -10px 200px 0px 10px;
   line-height: 2;
 }
 p,h1,h2,.button{
   font-family: 'Baskervville', cursive;
+}
+.projdiv{
+  color: white;
+  border: solid 1px;
+  width: auto;
+  height: auto;
+  margin: 20px
 }
