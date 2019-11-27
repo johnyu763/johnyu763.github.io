@@ -62,7 +62,7 @@ body{
   font-size: 20px;
 }
 .sum{
-  #border: solid white 1px;
+  border: black solid 1px;
   color: lightgrey;
   height: auto;
   width: 95%;
@@ -76,7 +76,7 @@ p,h1,h2,.button{
   border: solid 1px;
   float: left;
   width: 600px;
-  height: 500px;
+  height: auto;
   padding: 5px;
   margin: 0px 0px 0px 100px;
 }
