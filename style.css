@@ -64,7 +64,7 @@ body{
   text-align: center;
   display: inline-block;
   cursor:pointer;
-  object-fit: fill;
+  object-fit: contain;
 }
 .projname{
   text-indent :6em;
