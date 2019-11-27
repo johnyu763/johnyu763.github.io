@@ -49,7 +49,7 @@ body{
   text-align: center;
 }
 .project{
-  position: absolute;
+  position: relative;
   color: lightgrey;
   border: solid 1px;
   height: auto;
@@ -68,7 +68,7 @@ body{
   color: lightgrey;
   display: inline-block;
   height: 425px;
-  margin: -10px 200px 0px 700px;
+  margin: -10px 200px 0px 0px;
   line-height: 2;
 }
 p,h1,h2,.button{
