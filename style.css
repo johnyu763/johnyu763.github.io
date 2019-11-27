@@ -31,7 +31,7 @@ body{
   cursor:pointer;
 }
 .text{
-  color: white;
+  color: lightgrey;
   font-size: 20px;
   text-indent :4em;
   font-family: 'Baskervville', cursive;
@@ -45,14 +45,33 @@ body{
   margin: 20px 400px 15px 400px;
 }
 .line{
-  color: white;
+  color: lightgrey;
   border: solid;
   border-width: 0.5px;
   width: 800px;
   margin: auto;
   text-align: center;
 }
-.normal{
-  color:white;
-  
+.project{
+  color: lightgrey;
+  border: solid 1px;
+  width: 440px;
+  height: 374px;
+  margin: -5px 0px 0px 120px;
+  text-align: center;
+  background-image: url("img/CSnakeScreen.png");
+  display: inline-block
+}
+.projname{
+  text-indent :6em;
+  color:lightgrey;
+  font-family: 'Baskervville', cursive;
+  font-size: 20px;
+}
+.sum{
+  position: absolute;
+  color: lightgrey;
+  display: inline-block;
+  height: 200px;
+  margin: -5px 200px 0px 10px;
 }
