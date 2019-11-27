@@ -67,6 +67,7 @@ body{
   color:lightgrey;
   font-family: 'Baskervville', cursive;
   font-size: 20px;
+  object-fit: fill;
 }
 .sum{
   position: absolute;
