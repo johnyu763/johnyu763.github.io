@@ -58,15 +58,11 @@ body{
 .project{
   color: lightgrey;
   border: solid 1px;
-  width: 500px;
-  height: 425px;
+  max-width: 100%;
+  height: auto;
   margin: -5px 0px 0px 120px;
   display: inline-block;
   cursor:pointer;
-  object-fit: contain;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
 }
 .projname{
   text-indent :6em;
