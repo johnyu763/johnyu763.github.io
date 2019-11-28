@@ -5,17 +5,17 @@ body{
   color: lightgrey;
   text-align: center;
   background-image: url("img/bokeh.jpg");
-  margin: -8px 0px 0px 0px;
+  margin: -1% 0px 0px 0px;
   border-width: 1px;
-  font-size: 50px;
+  font-size: 400%;
   font-style: italic;
-  padding: 100px;
+  padding: 7%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .buttonbar{
   color: lavender;
-  height: 40px;
+  height: auto;
   background-color: teal;
   text-align:center;
 }
@@ -23,28 +23,26 @@ body{
   color:lavender;
   background-color: transparent;
   border:none;
-  padding: 6px;
-  font-size: 20px;
+  padding: 0.3%;
+  font-size: 130%;
   outline: none;
   cursor:pointer;
 }
 .text{
   color: lightgrey;
-  font-size: 20px;
+  font-size: 145%;
   text-indent :4em;
 }
 .caption{
   color: lightgrey;
   text-align: center;
-  font-size: 25px;
+  font-size: 180%;
   font-style: italic;
-  margin: 20px 400px 15px 400px;
+  margin: 1.5% 23% 1% 23%;
 }
 .line{
-  color: lightgrey;
-  border: solid;
-  border-width: 0.5px;
-  width: 800px;
+  border: lightgrey solid 0.5px;
+  width: 80%;
   margin: auto;
   text-align: center;
 }
@@ -53,40 +51,41 @@ body{
   color: lightgrey;
   border: solid 1px;
   height: auto;
-  max-width: 500px;
-  margin: -10px 0px 0px 0px;
+  max-width: 90%;
+  margin: 0%;
   cursor:pointer;
+  object-fit: cover;
 }
 .projname{
   color:lightgrey;
-  font-size: 20px;
+  font-size: 130%;
 }
 .sum{
   border: black solid 1px;
   color: lightgrey;
   height: auto;
   width: 95%;
-  margin: 50px 100px 0px 0px;
+  margin: 6.5% 6.5% 0% 0%;
   line-height: 2;
 }
 p,h1,h2,.button{
   font-family: 'Baskervville', cursive;
 }
 .projectCol1{
-  border: solid 1px;
+  border: white solid 1px;
   float: left;
-  width: 600px;
+  width: 37%;
   height: auto;
-  padding: 5px;
-  margin: 0px 0px 0px 100px;
+  padding: 0.5%;
+  margin: 0% 0% 0% 5%;
 }
 .projectCol2{
-  border: solid 1px;
+  border: white solid 1px;
   float: left;
-  width: 40%;
+  width: 45%;
   height: auto;
-  padding:5px;
-  margin: 0px 0px 0px 0px;
+  padding:0.5%;
+  margin: 0%;
 }
 .projectRow{
   border: solid 0.5px;
