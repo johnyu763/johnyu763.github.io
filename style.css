@@ -96,3 +96,33 @@ p,h1,h2,.button{
   clear: both;
   display: table-cell;
 }
+
+.scroll-wrapper {
+    text-align:center;
+}
+
+.scroll {
+
+    font-size: 50px;
+    color: #000;
+
+    -webkit-animation: scrolling 3s ease infinite;
+    -moz-animation: scrolling 3s ease infinite;
+    -o-animation: scrolling 3s ease infinite;
+    animation: scrolling 3s ease infinite;
+}
+.scroll:hover{
+    cursor: pointer;
+}
+
+@keyframes scrolling {
+  0% {
+    transform: translate(0);
+  }
+  50% {
+    transform: translate(0,40px);
+}
+  100% {
+    transform: translate(0);
+  }
+}
