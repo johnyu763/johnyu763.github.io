@@ -1,0 +1,364 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+
+html{
+  scroll-behavior: smooth;
+}
+.bkgdGrad{
+  z-index: -99;
+  position: fixed;
+  background-image: linear-gradient(to bottom, rgb(11,25,46), rgb(26, 72, 141));
+  width: 100%;
+  height:100%;
+}
+
+p{
+  font-size: 120%;
+}
+
+li{
+  font-size: 120%;
+}
+
+.advanceText{
+  animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  -ms-animation: fadeIn 2s;
+}
+
+.title{
+  color: white;
+  padding-top: 10%;
+  padding-left: 10%;
+  padding-bottom: 0%;
+  letter-spacing: 2px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.pageTitle{
+  font-weight: bold;
+  padding-left: 15%;
+  margin-bottom: 0;
+  margin-left: 3%;
+  letter-spacing: 5px;
+  display: inline-block;
+
+}
+
+.divider{
+  width: 100%;
+  clip-path: polygon(52% 0, 60% 30%, 100% 30%, 100% 31%, 60% 31%, 52% 1%, 0 1%, 0 0);
+  background-image: linear-gradient(to right, #0082c8, #2A6AC6);
+  margin-left: 0%;
+  margin-top: 3%;
+  margin-bottom: 0%;
+}
+
+.introBox{
+  position: relative;
+  /* clip-path: polygon(52% 0, 60% 20%, 100% 20%, 100% 100%, 60% 100%, 52% 80%, 0 80%, 0 0); */
+  /* background-image: linear-gradient(to right, #0082c8, #2A6AC6); */
+  height: 710px;
+}
+
+.newsletter{
+  float: right;
+  margin-top: -3%;
+  margin-right: 7%;
+  width: 30%;
+  color: white;
+}
+
+input[type=text]{
+  color: white;
+  width: 100%;
+  margin-bottom: 8px;
+  margin-left: 4%;
+  padding-right: 5%;
+  border: hidden;
+  background: transparent;
+}
+
+.textentry{
+  width: 100%;
+  margin-top: -4%;
+  margin-bottom: 8px;
+  padding-right: 5%;
+}
+
+.submit{
+  color: white;
+  background-color: transparent;
+  border: 0.5px solid white;
+  font-size: 20px;
+  margin-left: 0;
+  margin-bottom: 4%;
+}
+
+input[type=text]{
+  width: 83%;
+  outline: none;
+}
+
+.mmImg1{
+  width: 25vw;
+  border-radius: 50%;
+}
+
+.mmImg2{
+  width: 25vw;
+  border-radius: 50%;
+}
+
+.mmImg3{
+  width: 25vw;
+  border-radius: 50%;
+}
+
+.card-text {
+  z-index: 99;
+  position: absolute;
+  left: 1%;
+  bottom: -35%;
+  letter-spacing: 4px;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+
+.flipContainer{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: -5%;
+  margin-bottom:5%;
+/*  clip-path:
+      polygon(
+      0% 100px,
+      100px 0%,
+      calc(100% - 100px) 0%,
+      100% 100px,
+      100% calc(100% - 100px),
+      calc(100% - 100px) 100%,
+      100px 100%,
+      0 calc(100% - 100px)
+    );
+
+  background-image: linear-gradient(to top, #aab8c4, #aab8c4);
+*/
+}
+
+.flipRow{
+  padding-bottom: 5%;
+  padding-top: 5%;
+
+}
+
+.flipPortrait {
+  width: 18vw;
+  height: 18vw;
+  overflow: hidden;
+  clip-path: polygon(0 0, 100% 0%, 100% 84%, 0% 100%);
+}
+
+.flipCard{
+    background-color: rgb(33,32,40);
+    filter: drop-shadow(-2px -2px 8px black);
+
+}
+
+.flipImage {
+  width: 18vw;
+
+}
+
+.hideText{
+  display: none;
+}
+
+.hexButton:hover .hideText{
+  animation: fadeIn 0.7s;
+  -webkit-animation: fadeIn 0.7s;
+  -moz-animation: fadeIn 0.7s;
+  -o-animation: fadeIn 0.7s;
+  -ms-animation: fadeIn 0.7s;
+  display: block;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.scrollButton01:hover{
+  padding-left: 7%;
+  margin-left: -7%;
+}
+
+.scrollButton02:hover{
+  padding-left: 7%;
+  margin-left: -7%;
+}
+
+.scrollButton03:hover{
+  padding-left: 5%;
+  margin-left: -5%;
+}
+
+.scrollButton04:hover{
+  padding-left: 7%;
+  margin-left: -7%;
+}
+
+.flipName{
+  text-align: center;
+  padding-top: 5%;
+}
+
+.flipPosition{
+  text-align: center;
+  font-family: "Source Code Pro, monospace";
+  color: #aab8c4;
+  padding-bottom: 7%;
+  padding-top: 2%;
+
+}
+
+.footerBox{
+  clip-path: polygon(50% 32%, 62% 12%, 100% 12%, 100% 100%, 0 100%, 0 32%);
+  background-image: linear-gradient(to right, #1CB5E0, #2A6AC6);
+}
+
+.footerIcons{
+}
+
+.mainBody{
+  background-image: url("../images/JohnAltPortrait.jpg");
+
+  /* Set a specific height */
+  min-height: 820px;
+  opacity: 75%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-device-width: 1366px) {
+  .mainBody {
+    background-attachment: scroll;
+  }
+}
+.scrollButtons{
+  position: fixed;
+  top: 40%;
+  left:95%;
+  margin-right: 5%;
+  z-index: 999;
+}
+
+.scrollButtons a {
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  color: #fff;
+  font : normal 400 20px/1 'Josefin Sans', sans-serif;
+  letter-spacing: .1em;
+  text-decoration: none;
+  transition: opacity .3s;
+}
+
+.scrollButtons a:hover {
+  opacity: .5;
+}
+
+.scrollDot{
+  filter: opacity(.5);
+}
+
+.socialIcon{
+    width:5vw;
+}
+
+.submit{
+  background-image: linear-gradient(to right, #1CB5E0, #2A6AC6);
+  margin-top: 25px;
+  padding: 20px;
+  letter-spacing: 2px;
+  font-size: 1.2vw;
+  text-align: center;
+  filter: drop-shadow(2px 2px 4px rgba(33,32,40,.5));
+}
+
+.submit:hover{
+  filter: drop-shadow(4px 4px 8px rgba(33,32,40,.5));
+}
+
+.subscribeBox{
+  position: absolute;
+  top: 20%;
+  right:0%;
+  bottom:0%;
+  left: 60%;
+
+}
+
+.subscribeBoxWho{
+  position: relative;
+}
+
+.slider {
+  display: flex;
+  flex-wrap: "wrap";
+  padding: 0 4px;
+}
+
+.slides{
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.slides img{
+  margin-top: 8px;
+  vertical-align: middle;
+  max-width: 250px;
+}
+
+.textInput{
+  width:100%;
+}
+
+.webBanner{
+  position: relative;
+  top: 10%;
+  width: 100%;
+  height: 100vh;
+  clip-path: polygon(59% 0, 72% 23%, 100% 23%, 100% 77%, 71% 77%, 56% 54%, 0 53%, 0 0);
+  background-image: linear-gradient(to bottom, white, #a8bbd9);
+}

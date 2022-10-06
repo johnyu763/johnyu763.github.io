@@ -1,43 +1,98 @@
-<!doctype html>
-<head> 
-  <link type="text/css" rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css?family=Baskervville&display=swap" rel="stylesheet">
-  <meta charset="UTF-8">
-</head>
-<body>
-  <h1 class="title"> John's Website </h1>
-  <div class="buttonbar">
-    <button onclick="window.location.href = 'https://johnyu763.github.io/';" class="button">Home</button>
-    <button onclick="window.location.href = 'https://johnyu763.github.io/Resume/';" class="button">Résumé</button> 
-    <button class="button">About</button>
-    <button onclick="window.location.href ='https://johnyu763.github.io/Contact/';" class="button">Contact</button> 
-  </div>
-  <h2 class="caption"> Hi, I'm John Yu and I'm a second year Computer Science and Engineering Major at UCI </h2>
- <i class="scroll fas fa-arrow-alt-circle-down"></i> 
-  <p class="line"> </p>
-  <h2 class="text"> Projects </h2>
-  <div class="projectRow">
-    <div class="projectCol1">
-    <p class="projname"> CSnake </p>
-    <img src="img/CSnakeScreen.png"  alt="CSnake" onclick="window.location.href ='https://github.com/johnyu763/CSnake';" class="project snake">
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <link type="text/css" rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IEEE@UCI Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7f04ea1932.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="topgap">
     </div>
-    <div class="projectCol2">
-    <p class="sum"> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-  </div>
-  <div class="projectRow">
-    <div class="projectCol1">
-    <p class="projname"> Brave New Catacombs RPG </p>
-    <img src="img/BNCRPG.png"  alt="Brave New Catacombs RPG" onclick="window.location.href ='https://github.com/johnyu763/BraveNewCatacombRPG';" class="project bnc">
+    <nav class="topbar">
+          <img src="images/ieee_uci_logo_trans_white.png" onclick="window.location.href ='https://ieee-uci.github.io/';" alt="Logo" class="logo">
+          <ul>
+            <li>
+              <a href ="https://ieee-uci.github.io/events" class="button">EVENTS</a>
+            </li>
+            <li>
+              <div class="rightdropdiv dropdown">
+                  <button class="button dropbtn" onclick="getProjDrop()">PROJECTS <i class="fas fa-caret-up"></i></button>
+                  <div id="myProjDrop" class="projDrop dropdown-content">
+                      <a href="https://ieee-uci.github.io/projects/micromouse">Micromouse</a>
+                      <a href="https://ieee-uci.github.io/projects/arcade">Arcade Machine</a>
+                    </div>
+              </div>
+            </li>
+            <li>
+              <div class="leftdropdiv dropdown">
+                  <button class="button dropbtn" onclick="getAboutDrop()">ABOUT <i class="fas fa-caret-up"></i></button>
+                    <div id="myAboutDrop" class="aboutDrop dropdown-content">
+                      <a href="https://ieee-uci.github.io/about/board">Meet Our Board</a>
+                      <a href="https://ieee-uci.github.io/about/who">Who Are We?</a>
+                    </div>
+                  </div>
+            </li>
+            <li>
+              <a href = "https://ieee-uci.github.io" class="button">HOME</a>
+            </li>
+          </ul>
+    </nav>
+    <div class="homemain">
+        <img src="images/robot_hand.jpg" alt="Main Page" class="homebody">
+        <div class="advance-text">ADVANCING TECHNOLOGY FOR HUMANITY</div>
     </div>
-    <div class="projectCol2">
-    <p class="sum"> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+    <div class="intro">
+        <p class="introtext"> IEEE at UC Irvine is a student organization dedicated to providing students opportunities to gain hands-on experience with projects in preparation for the real-world. Through our organization, student will be able to explore the field of engineering and hone new skills that are fundamental to developing state-of-the-art technology.  Our organization is dedicated to making students be the succesful engineer they envision themselves to be so that they can advance technology for humanity in their own passion. </p>
     </div>
- <div class="projectRow">
-    <div class="projectCol1">
-    <p class="projname"> Tippy </p>
-    <img src="img/tippyDemo.gif"  alt="tippy" onclick="window.location.href ='https://github.com/johnyu763/tippy';" class="project tippy">
-   </div>
-   <div class="projectCol2">
-    <p class="sum"> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-   </div>
-</body>
+    <div class="websiteComp">
+        <h1 class="wsch"> Spring 2020 Website Competition Winners </h1>
+        <div class="row">
+          <div class="card">
+              <h3>KELLY<br>LUE</h3>
+              <a href="https://kellylue.github.io/"><img src="images/ws_kelly.PNG" alt="First Place" class="card-image"></a>
+              <div class="card-text">  1</div>
+
+          </div>
+        </div>
+        <div class="row">
+          <div class="card">
+              <h3>JACK<br>WHITTAKER</h3>
+              <a href="https://jackw01.github.io/" target="_blank"><img src="images/ws_jack.PNG" alt="Second Place" class="card-image"></a>
+              <div class="card-text">2</div>
+
+          </div>
+        </div>
+        <div class="row">
+          <div class="card">
+              <h3>SALVADOR<br>VILLALON</h3>
+              <a href="https://salvillalon45.github.io/" target="_blank"><img src="images/ws_salvador.PNG" alt="Third Place" class="card-image"></a>
+              <div class="card-text">3</div>
+          </div>
+        </div>
+    </div>
+    <div class="footer">
+        <img src="images/textBrace.png" alt="Brace" class="footBrace">
+        <div class="socialmedia">
+            <a href="mailto:ieee.ucirvine@gmail.com"><img class="social" src="images/emailicon.png"></a>
+            <img onclick="window.location.href ='https://www.facebook.com/IEEE.UCI/';" class="social" src="images/facebookicon.png">
+            <img onclick="window.location.href =' ';" class="social" src="images/twittericon.png">
+            <img onclick="window.location.href ='https://www.instagram.com/ieee_uci/ ';" class="social" src="images/instagramicon.png">
+            <img onclick="window.location.href =' ';" class="social" src="images/snapchaticon.png">
+            <img onclick="window.location.href =' ';" class="social" src="images/linkedinicon.png">
+        </div>
+        <div class="newsletter">
+            <h2 class="newsHead">JOIN OUR MAILING LIST:</h2>
+            <form action="https://formspree.io/xlepjdlk" method="POST">
+                <label> E-mail Address <input type="text" name="e-mail address"><img class="textentry" src="images/textentry.png"</label>
+                <label> First Name <input type="text" name="first name"><img class="textentry" src="images/textentry.png"</label>
+                <label> Last Name <input type="text" name="last name"><img class="textentry" src="images/textentry.png"></label>
+                <button class="submit" type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+  </body>
+</html>
