@@ -1,29 +1,33 @@
 {
   "files": {
-    "main.css": "./static/css/main.2cdf4ffd.chunk.css",
-    "main.js": "./static/js/main.3104f6b0.chunk.js",
-    "main.js.map": "./static/js/main.3104f6b0.chunk.js.map",
+    "main.css": "./static/css/main.a1b87dd0.chunk.css",
+    "main.js": "./static/js/main.af24a339.chunk.js",
+    "main.js.map": "./static/js/main.af24a339.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.49b401d1.js",
     "runtime-main.js.map": "./static/js/runtime-main.49b401d1.js.map",
     "static/css/2.1cace5d8.chunk.css": "./static/css/2.1cace5d8.chunk.css",
-    "static/js/2.c737f39e.chunk.js": "./static/js/2.c737f39e.chunk.js",
-    "static/js/2.c737f39e.chunk.js.map": "./static/js/2.c737f39e.chunk.js.map",
+    "static/js/2.d645f414.chunk.js": "./static/js/2.d645f414.chunk.js",
+    "static/js/2.d645f414.chunk.js.map": "./static/js/2.d645f414.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.209492e874c11afe67d477a737f48526.js": "./precache-manifest.209492e874c11afe67d477a737f48526.js",
+    "precache-manifest.021fce1c1ba6857b77b5ace8bc995f5a.js": "./precache-manifest.021fce1c1ba6857b77b5ace8bc995f5a.js",
     "service-worker.js": "./service-worker.js",
     "static/css/2.1cace5d8.chunk.css.map": "./static/css/2.1cace5d8.chunk.css.map",
-    "static/css/main.2cdf4ffd.chunk.css.map": "./static/css/main.2cdf4ffd.chunk.css.map",
-    "static/js/2.c737f39e.chunk.js.LICENSE.txt": "./static/js/2.c737f39e.chunk.js.LICENSE.txt",
-    "static/media/JohnAltPortrait.jpg": "./static/media/JohnAltPortrait.e43494f5.jpg",
+    "static/css/main.a1b87dd0.chunk.css.map": "./static/css/main.a1b87dd0.chunk.css.map",
+    "static/js/2.d645f414.chunk.js.LICENSE.txt": "./static/js/2.d645f414.chunk.js.LICENSE.txt",
+    "static/media/BNCRPG.png": "./static/media/BNCRPG.17d62a7f.png",
+    "static/media/JohnAltPortrait.jpg": "./static/media/JohnAltPortrait.7c102753.jpg",
     "static/media/emailicon.png": "./static/media/emailicon.99a7e17b.png",
     "static/media/linkedinicon.png": "./static/media/linkedinicon.a0a0d858.png",
-    "static/media/ucsclogo.png": "./static/media/ucsclogo.7e0aa13e.png"
+    "static/media/ucsclogo.png": "./static/media/ucsclogo.7e0aa13e.png",
+    "static/media/ws_jack.png": "./static/media/ws_jack.fffd334b.png",
+    "static/media/ws_kelly.png": "./static/media/ws_kelly.85bc647b.png",
+    "static/media/ws_salvador.png": "./static/media/ws_salvador.2b3733a0.png"
   },
   "entrypoints": [
     "static/js/runtime-main.49b401d1.js",
     "static/css/2.1cace5d8.chunk.css",
-    "static/js/2.c737f39e.chunk.js",
-    "static/css/main.2cdf4ffd.chunk.css",
-    "static/js/main.3104f6b0.chunk.js"
+    "static/js/2.d645f414.chunk.js",
+    "static/css/main.a1b87dd0.chunk.css",
+    "static/js/main.af24a339.chunk.js"
   ]
 }
